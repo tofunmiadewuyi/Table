@@ -48,7 +48,6 @@ let getData = async () => {
     // Add a click event listener to the button for some action
     btn.addEventListener("click", function () {
     // Define what happens when the button is clicked, e.g.display options menu
-    // alert("Options clicked for user: " + user.id);
     if (menu.style.display === "none") {
       menu.style.display = "flex"
     } else {
